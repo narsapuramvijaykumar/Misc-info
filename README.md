@@ -3,3 +3,10 @@ General links and data related to bioinformatics and all lif science realted sub
 
 Random bash commands
 for each in `ls -tlr */* | grep 'scaffold' | awk '{print $9}' | grep 'prediction.fa$' `;do grep -A 1 '>' $each | awk '{print $1"_"$2}'> $each"_mod";done
+
+
+
+
+Informative links
+#################
+Challenge participation --> http://www.spoj.com/problems/classical/sort=-6
