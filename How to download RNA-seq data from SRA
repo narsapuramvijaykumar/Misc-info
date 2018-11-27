@@ -1,0 +1,5 @@
+Search for species/organism of interest in the seach bar of Bioproject tab
+Then apply filters present on left most panel by selecting the data tye of ineterest(Transcriptome), Project data(SRA), Scope (Multiple species/ Single species/ Multi isolate) and organism (plant/human/fungi/others)
+To get the SRA realted data for all hits in Bioprojects, click on right most drop down menu to select SRA and click on find items below it
+To download runinfo click on "send to"--> "file" --> "runinfo" --> createfile
+**Done**
