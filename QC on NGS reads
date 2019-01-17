@@ -1,0 +1,17 @@
+FASTQC
+######
+FASTQC for generating the QC report for paired end and single end reads
+Trimmomatic 
+###########
+For trimming the regions which are low in quality, adaptors etc, but not GC content correction
+PRINSEQ
+######
+For GC content correction and specifically for reads from 454/Roche use http://prinseq.sourceforge.net/manual.html#QCGC
+
+
+SBV Challenge Insights
+###############
+In case of metagenomic sample GC content:
+The GC content distribution of most samples should follow a normal distribution. 
+In some cases, a bi-modal distribution can be observed, especially for metagenomic data sets.
+
