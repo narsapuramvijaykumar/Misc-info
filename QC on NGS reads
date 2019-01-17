@@ -1,6 +1,18 @@
 FASTQC
 ######
 FASTQC for generating the QC report for paired end and single end reads
+SolexaQA
+########
+SolexaQA calculates sequence quality statistics and creates visual representations of data quality for second-generation sequencing data.
+Originally developed for the Illumina system (historically known as “Solexa”), SolexaQA now also supports Ion Torrent and 454 data.
+Running directly on FASTQ files (now with support for compressed files too), the software has three component algorithms:
+Analysis — the primary quality analysis and visualization tool. Designed to run on unmodified FASTQ files obtained directly from Illumina,
+Ion Torrent or 454 sequencers.
+DynamicTrim — a read trimmer that individually crops each read to its longest contiguous segment for which 
+quality scores are greater than a user-supplied quality cutoff (or alternately, the read segment returned by the BWA trimming algorithm).
+LengthSort — a program to separate high quality reads from low quality reads. 
+LengthSort assigns trimmed reads to paired-end, singleton and discard files based on a user-defined length cutoff.
+
 Trimmomatic 
 ###########
 For trimming the regions which are low in quality, adaptors etc, but not GC content correction
@@ -8,10 +20,13 @@ PRINSEQ
 ######
 For GC content correction and specifically for reads from 454/Roche use http://prinseq.sourceforge.net/manual.html#QCGC
 
-
 SBV Challenge Insights
 ###############
 In case of metagenomic sample GC content:
 The GC content distribution of most samples should follow a normal distribution. 
 In some cases, a bi-modal distribution can be observed, especially for metagenomic data sets.
+
+They have used "MetaSim—A Sequencing Simulator for Genomics and Metagenomic" to generate metagenomic reads
+MetaSim allows the user to simulate individual read datasets that can be used as standardized test scenarios
+for planning sequencing projects or for benchmarking metagenomic software.
 
