@@ -7,3 +7,6 @@ Secondary Structure prediction (Helix, Strand, Loop)
 ##############################
 Chou & fasman algorithm for 2nd structure prediction method implemented in Expasy SIB CFSSP
 
+Intrinsic Disorder regions
+##########################
+Like proteins SUMO-1
