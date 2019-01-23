@@ -1,0 +1,9 @@
+GO Annotation
+#############
+Pfam ids mapped to GO PFAM2GO
+
+
+Secondary Structure prediction (Helix, Strand, Loop)
+##############################
+Chou & fasman algorithm for 2nd structure prediction method implemented in Expasy SIB CFSSP
+
