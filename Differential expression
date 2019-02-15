@@ -1,0 +1,5 @@
+LRT - In statistics, a likelihood ratio test (LR test) is a statistical test used for comparing the goodness of fit of two statistical models 
+— a null model against an alternative model. The test is based on the likelihood ratio, which expresses how many times more likely the data
+are under one model than the other. This likelihood ratio, or equivalently its logarithm, can then be used to compute a p-value, 
+or compared to a critical value to decide whether to reject the null model.
+
