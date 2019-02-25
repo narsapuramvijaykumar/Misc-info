@@ -3,3 +3,4 @@ LRT - In statistics, a likelihood ratio test (LR test) is a statistical test use
 are under one model than the other. This likelihood ratio, or equivalently its logarithm, can then be used to compute a p-value, 
 or compared to a critical value to decide whether to reject the null model.
 
+DESeq2 tutorials al formulae --> https://www.huber.embl.de/users/klaus/teaching.html#differential_expression_analysis_of_rna-seq_data_with_deseq2
