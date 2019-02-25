@@ -15,3 +15,8 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC29792/
 Informative links
 #################
 Challenge participation --> http://www.spoj.com/problems/classical/sort=-6
+
+Galaxy RNA-seq end-end
+##########
+https://galaxyproject.org/tutorials/rb_rnaseq/
+
