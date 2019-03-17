@@ -27,6 +27,7 @@ useful links
 ------------
 https://jgi.doe.gov/data-and-tools/bbtools/bb-tools-user-guide/bbduk-guide/
 http://seqanswers.com/forums/showthread.php?t=42776
+issues --> https://www.biostars.org/p/250149/
 
 adapter removal, quality filter
 --> hard to balance R1 and R2 quality filter since, R1 qualified all fastqc filters doesn't mean it does for R2, need to fine tune the 
