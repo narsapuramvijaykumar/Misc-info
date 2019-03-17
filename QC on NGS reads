@@ -20,6 +20,12 @@ PRINSEQ
 ######
 For GC content correction and specifically for reads from 454/Roche use http://prinseq.sourceforge.net/manual.html#QCGC
 
+BBDUK
+#####
+used for sbv inprover benchmarking dataset for filtering illumina adapter removal, quality filter for reads
+https://jgi.doe.gov/data-and-tools/bbtools/bb-tools-user-guide/bbduk-guide/
+adapter removal, quality filter
+
 SBV Challenge Insights
 ###############
 In case of metagenomic sample GC content:
