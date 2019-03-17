@@ -30,6 +30,7 @@ parameters to get R1 & R2 balance.
 sample command --> ../bbmap/bbduk.sh in1=ABRF_MGRG_1ng_R1_sample_1L.fastq in2=ABRF_MGRG_1ng_R2_sample_1L.fastq
 out1=ABRF_MGRG_1ng_R1_sample_bbduk_trimmed_l20_q30_tpe_tbo out2=ABRF_MGRG_1ng_R2_sample_bbduk_trimmed_l20_q30_tpe_tbo
 qtrim=rl trimq=30 ml=20 ref=../bbmap/resources/adapters.fa tpe tbo
+**better for single end data
 
 --> instead use trimmomatic which solves the R1 & R2 filetering in the same way and no much fine tuning required
 sample command - /drives/c/Program\ Files/Java/jre1.8.0_112/bin/java.exe -jar trimmomatic-0.38.jar PE -phred33 /drives/c
@@ -38,7 +39,7 @@ MGRG_1ng_R2.fastq.gz /drives/c/Users/narsapvi/Downloads/BenchmarkigDatasets/ABRF
 wnloads/BenchmarkigDatasets/ABRF_MGRG_1ng_R1_SE.fastq.gz /drives/c/Users/narsapvi/Downloads/BenchmarkigDatasets/ABRF_MGRG_1ng_R2_PE.
 fastq.gz /drives/c/Users/narsapvi/Downloads/BenchmarkigDatasets/ABRF_MGRG_1ng_R2_SE.fastq.gz ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEAD
 ING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
-
+**better for paired end data
 
 SBV Challenge Insights
 ###############
