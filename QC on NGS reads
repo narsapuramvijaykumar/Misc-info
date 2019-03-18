@@ -16,6 +16,9 @@ LengthSort assigns trimmed reads to paired-end, singleton and discard files base
 Trimmomatic 
 ###########
 For trimming the regions which are low in quality, adaptors etc, but not GC content correction
+http://www.usadellab.org/cms/?page=trimmomatic
+http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf
+
 PRINSEQ
 ######
 For GC content correction and specifically for reads from 454/Roche use http://prinseq.sourceforge.net/manual.html#QCGC
