@@ -3,6 +3,8 @@ General links and data related to bioinformatics and all lif science realted sub
 
 Random bash commands
 for each in `ls -tlr */* | grep 'scaffold' | awk '{print $9}' | grep 'prediction.fa$' `;do grep -A 1 '>' $each | awk '{print $1"_"$2}'> $each"_mod";done
+paste <(awk '{print $1"\t"$2}' deseq2_african_comn_upregulated_genes_CFBP7331_read_counts.txt) <(awk '{print $2}' deseq2_african_comn_upregulated_genes_CFBP7341_read_counts.txt) <(awk '{print $2}' deseq2_african_comn_upregulated_genes_CFBP7331_read_counts.txt) > deseq2_african_comn_upregulated_genes_3strains_read_count.txt
+
 
 #MSA vs PSA for sequence analysis
 https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2524-4
