@@ -22,3 +22,8 @@ Galaxy RNA-seq end-end
 ##########
 https://galaxyproject.org/tutorials/rb_rnaseq/
 
+Penn state university stats course material
+#################
+https://newonlinecourses.science.psu.edu/stat505/node/147/
+
+
