@@ -1,0 +1,23 @@
+1. Pathway annotation for rice and other plants
+http://www.gabipd.de/projects/MapMan/
+
+2. Trimmomatic for NGS reads quality control
+http://www.usadellab.org/cms/?page=trimmomatic
+
+3. Kraken fro taxonomy classification
+http://ccb.jhu.edu/software/kraken/MANUAL.html
+
+4. Bracken for taxonomy estimation using kraken
+https://github.com/jenniferlu717/Bracken
+
+5. DESeq2 for differential expression analysis
+https://www.huber.embl.de/users/klaus/Teaching/DESeq2-Analysis.pdf
+
+6.Galaxy for multiple analysis (DEGs, FASTQC)
+https://usegalaxy.org/
+
+7. The agriGO is a web-based tool and database for the gene ontology analysis. It supports specicial focus on agricultural species and is user-friendly.
+http://bioinfo.cau.edu.cn/agriGO/index.php
+
+8. DEBrowser for Differential expression analysis and heat maps viewer
+https://debrowser.readthedocs.io/en/master/deseq/deseq.html
