@@ -1,6 +1,9 @@
 FASTQC
 ######
 FASTQC for generating the QC report for paired end and single end reads
+FastqPuri: high-performance preprocessing of RNA-seq data (2019 superior)
+##################
+released in 2019 superior over exsisting tools
 SolexaQA
 ########
 SolexaQA calculates sequence quality statistics and creates visual representations of data quality for second-generation sequencing data.
