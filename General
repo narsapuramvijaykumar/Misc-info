@@ -5,6 +5,9 @@ Random bash commands
 for each in `ls -tlr */* | grep 'scaffold' | awk '{print $9}' | grep 'prediction.fa$' `;do grep -A 1 '>' $each | awk '{print $1"_"$2}'> $each"_mod";done
 paste <(awk '{print $1"\t"$2}' deseq2_african_comn_upregulated_genes_CFBP7331_read_counts.txt) <(awk '{print $2}' deseq2_african_comn_upregulated_genes_CFBP7341_read_counts.txt) <(awk '{print $2}' deseq2_african_comn_upregulated_genes_CFBP7331_read_counts.txt) > deseq2_african_comn_upregulated_genes_3strains_read_count.txt
 
+extract multi line fasta sequence from ids 
+awk -F'>' 'NR==FNR{ids[$0]; next} NF>1{f=($2 in ids)} f' IRDIG_actives_id hDAS_hPioneer_actives.fasta
+
 grep -Eo '[[:alpha:]]+|[0-9]+' <<< "Cry22Aa8" 
 o/p --> "-o" outputs the parts of matching strin from same line into different lines
 Cry
