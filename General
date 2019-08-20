@@ -23,6 +23,10 @@ To test the performance of MSA and PSA methods on protein sequence level, we pre
 BAliBASE is specifically designed to serve as an evaluation resource to address all the problems encountered when aligning complete sequences. The database contains high quality, manually constructed multiple sequence alignments together with detailed annotations. The alignments are all based on three-dimensional structural superpositions, with the exception of the transmembrane sequences.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC29792/
 
+RPKM, FPKM, TPM
+---------------
+https://statquest.org/2015/07/09/rpkm-fpkm-and-tpm-clearly-explained/
+
 Informative links
 #################
 Challenge participation --> http://www.spoj.com/problems/classical/sort=-6
