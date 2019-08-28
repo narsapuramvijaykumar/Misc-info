@@ -5,6 +5,10 @@ Random bash commands
 for each in `ls -tlr */* | grep 'scaffold' | awk '{print $9}' | grep 'prediction.fa$' `;do grep -A 1 '>' $each | awk '{print $1"_"$2}'> $each"_mod";done
 paste <(awk '{print $1"\t"$2}' deseq2_african_comn_upregulated_genes_CFBP7331_read_counts.txt) <(awk '{print $2}' deseq2_african_comn_upregulated_genes_CFBP7341_read_counts.txt) <(awk '{print $2}' deseq2_african_comn_upregulated_genes_CFBP7331_read_counts.txt) > deseq2_african_comn_upregulated_genes_3strains_read_count.txt
 
+mathing the i with 2nd comlun in file
+for i in `awk '{print $1}' genomes_no_of_MP_hits.txt`;do echo -ne $i"\n\n";awk -v ref="^$i" 'match($2,ref) { print }' 
+blastp_hPHI_MP_actives_against_hDAS_allgenomes_parsed_iden90_qcov90_hcov90.out ; done > MP_multi_family_in_neighborhood_data.txt
+
 extract multi line fasta sequence from ids 
 awk -F'>' 'NR==FNR{ids[$0]; next} NF>1{f=($2 in ids)} f' IRDIG_actives_id hDAS_hPioneer_actives.fasta
 
