@@ -12,9 +12,9 @@ blastp_hPHI_MP_actives_against_hDAS_allgenomes_parsed_iden90_qcov90_hcov90.out ;
 extract multi line fasta sequence from ids 
 awk -F'>' 'NR==FNR{ids[$0]; next} NF>1{f=($2 in ids)} f' IRDIG_actives_id hDAS_hPioneer_actives.fasta
 
-grep -Eo '[[:alpha:]]+|[0-9]+' <<< "Cry22Aa8" 
+grep -Eo '[[:alpha:]]+|[0-9]+' <<< "ABC22Aa8" 
 o/p --> "-o" outputs the parts of matching strin from same line into different lines
-Cry
+ABC
 22
 Aa
 8
