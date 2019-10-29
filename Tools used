@@ -30,3 +30,7 @@ https://funricegenes.github.io/
 
 11. Mapman - MAPMAN is a user-driven tool that displays large data sets onto diagrams of metabolic pathways or other processes
 https://mapman.gabipd.org/
+
+12.REViGO can take long lists of Gene Ontology terms and summarize them by removing redundant GO terms.
+The remaining terms can be visualized in semantic similarity-based scatterplots, interactive graphs, or tag clouds. 
+http://revigo.irb.hr/
