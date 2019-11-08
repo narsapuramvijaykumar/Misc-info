@@ -12,6 +12,9 @@ blastp_public_actives_against_allgenomes_parsed_iden90_qcov90_hcov90.out ; done 
 extract multi line fasta sequence from ids 
 awk -F'>' 'NR==FNR{ids[$0]; next} NF>1{f=($2 in ids)} f' fasta_id fasta_main_file.fasta
 
+Linearzing fasta for easier extraction
+sed -e 's/\(^>.*$\)/#\1#/' file.fasta | tr -d "\r" | tr -d "\n" | sed -e 's/$/#/' | tr "#" "\n" | sed -e '/^$/d'
+
 grep -Eo '[[:alpha:]]+|[0-9]+' <<< "ABC22Aa8" 
 o/p --> "-o" outputs the parts of matching strin from same line into different lines
 ABC
