@@ -3,3 +3,8 @@ Then apply filters present on left most panel by selecting the data tye of inete
 To get the SRA realted data for all hits in Bioprojects, click on right most drop down menu to select SRA and click on find items below it
 To download runinfo click on "send to"--> "file" --> "runinfo" --> createfile
 **Done**
+
+
+Extracting the list of BioProjects for Rice RNAseq data from below link
+https://www.ncbi.nlm.nih.gov/bioproject/browse
+try to filter the data you are interested in and download the data
