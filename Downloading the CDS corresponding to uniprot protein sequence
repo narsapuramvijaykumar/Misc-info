@@ -1,0 +1,16 @@
+This script will show steps to follow to download the CDS sequence corresponding to the Uniprot protein sequence
+1. Select the set of Uniprot protein ids for which you would like to download the CDS (get uniprotKB AC/ID --> tr|A0A1B8CKU8|A0A1B8CKU8_9PEZI --> A0A1B8CKU8_9PEZI)
+ grep ">" UNIPROT_fasta.fasta | awk '{print $1}' | cut -d'|' -f3 | less
+   E.g. A0A1B8CKU8_9PEZI
+        V9DF32_9EURO
+        A0A1V1TAX9_9FUNG
+        A0A1H1JFR0_9RHOB
+2. Mapping the UniprotKB AC/ID to EMBL/DDBJ/GENBANK CDS using IDmapper in uniprot
+E.g From	To
+A0A1B8CKU8_9PEZI	OBT47437.1
+V9DF32_9EURO	ETI25494.1
+A0A1V1TAX9_9FUNG	GAW17986.1
+A0A1H1JFR0_9RHOB	SDR48466.1
+
+3. Searching the mapped ID's in NCBI protein resource (all ids at once using comma separated)
+
