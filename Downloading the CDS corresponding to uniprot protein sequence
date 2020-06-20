@@ -12,5 +12,12 @@ V9DF32_9EURO	ETI25494.1
 A0A1V1TAX9_9FUNG	GAW17986.1
 A0A1H1JFR0_9RHOB	SDR48466.1
 
-3. Searching the mapped ID's in NCBI protein resource (all ids at once using comma separated)
+3. Searching the mapped ID's in NCBI "protein (drop-down)" resource (all ids at once using comma separated)
+
+4. Now download the CDS sequence from send to --> file --> Fasta CDS (Check for sequence start with ATG, else follow step 6)
+
+5. You have successfully downloaded the CDS for each of your corresponding Uniprot protein
+
+6. If the CDS sequence doesn't start with the "ATG" then go to sms2(sequence manipulation suite) resource, select the select the reverse compliment section
+   paste your CDS sequence and rev complement it and download the resulting file.
 
