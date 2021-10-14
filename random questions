@@ -1,0 +1,9 @@
+questionaire
+
+--> Copy, deepcopy in python, dictionary referencing answer: if we just copy the dictionary to another variable, and then change the parent 
+the child copy will also get changed, because of it creats a new reference.
+--> why gz after tar ..?!
+TAR creates a single archived file out of many files, but does not compress them.
+GZIP compresses a single file into another single file, but does not create archives
+
+
