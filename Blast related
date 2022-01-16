@@ -1,0 +1,14 @@
+makeblastdb -in longest_orfs.pep -parse_seqids -dbtype prot
+
+Building a new DB, current time: 01/16/2022 02:03:25
+New DB name:   /scale03/fs0/gpfs0/research/anno/1000_transcriptomes/transcript_assemblies/DJSE-Ophioglossum_petiolatum-2_samples_combined/transdecoder/DJSE-SOAPdenovo-Trans-assembly.fa.transdecoder_dir/longest_orfs.pep
+New DB title:  longest_orfs.pep
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+
+No volumes were created because no sequences were found.
+
+BLAST Database creation error: Near line 1, the local id is too long.  Its length is 70 but the maximum allowed local id length is 50.  Please find and correct all local ids that are too long.
+
+This is due to the usage of -parse_seqids --> you can remove this either or use the md5sum based script to make the fasta ids to length 50 (-parse_seqids worked for me)
