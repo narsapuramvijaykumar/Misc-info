@@ -5,5 +5,8 @@ the child copy will also get changed, because of it creats a new reference.
 --> why gz after tar ..?!
 TAR creates a single archived file out of many files, but does not compress them.
 GZIP compresses a single file into another single file, but does not create archives
+--> How to get the comm elements between five files..?!
+using comm -12 file1 file2 | comm -12 - file3
+--> 
 
 
