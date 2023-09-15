@@ -65,3 +65,7 @@ http://www.ruffus.org.uk/
 https://materialsproject.github.io/fireworks/
 
     
+Python argument generators
+################
+https://typer.tiangolo.com/ (Build on top of click and recommended)
+https://click.palletsprojects.com/en/8.1.x/
