@@ -73,7 +73,7 @@ https://click.palletsprojects.com/en/8.1.x/
 Tmux session for running commands in linux in the background
 ####################
 tmux ls
-tmux new -s update-fna
+tmux new -s update-fna (exist from session Ctrl+B and D)
 tmux attach-session -t update-fna
 tmux kill-session -t update-fna
 
