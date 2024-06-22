@@ -83,3 +83,7 @@ https://unix.stackexchange.com/questions/103920/parallelize-a-bash-for-loop
 Parallelize a Bash FOR Loop
 I have been trying to parallelize the following script, specifically each of the three FOR loop instances, using GNU Parallel but haven't been able to. 
 The 4 commands contained within the FOR loop 
+
+
+Docker image link for prokka
+prokka/1.14.6/Dockerfile
