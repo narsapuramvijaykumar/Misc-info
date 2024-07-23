@@ -1,0 +1,24 @@
+Data science related questions
+1. What are different hyperparameter techniques..?! 
+A. Grid search method, Random method
+
+2. Difference between tokenization and embedding
+A. Tokenization takes the text and maps input sequences to numbers. 
+Tokenization Straight mapping from token to numbers ( can be modeled but quickly gets too big). 
+These tokens are usually words that can also be phrases, punctuation marks, or even individual characters. 
+Tokenization is the first step in NLP and is essential for text preprocessing. 
+Tokenization helps in preparing the text data for analysis by making it more structured and easier to work with.
+
+3. Type of tokenizations and embedding techniques
+
+4. How do we handle imbalanced sampling
+
+5. What are differen methods of imputation of missing values
+
+6. What are different methods of embeddings and how do we visualize the embedded has successfully seggregated the values per class
+
+7. 
+
+8.
+
+9.
