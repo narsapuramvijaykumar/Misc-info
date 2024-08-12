@@ -18,7 +18,10 @@ Tokenization helps in preparing the text data for analysis by making it more str
 6. What are different methods of embeddings and how do we visualize the embedded has successfully seggregated the values per class
 
 8. Different methods of regularization
-L1, L2, Elastic net, drop out, Early stopping, Batch normalization, Weight contraint
+Methods: L1, L2, Elastic net, drop out, Early stopping, Batch normalization, Weight contraint
+Elastic Net: This combination of L1 and L2 regularization controls the model by adding penalties from both L1 and L2, 
+which can be a useful middle ground.
+
 
 7. Traditional methods like cross-validation and stepwise regression to perform feature selection and handle overfitting work well with a small set of features 
 but L1 and L2 regularization methods are a great alternative when you’re dealing with a large set of features. 
@@ -26,5 +29,3 @@ but L1 and L2 regularization methods are a great alternative when you’re deali
 8.Difference between L1 and L2 regularization
 L1 Regularization (Lasso): Encourages sparsity in the model parameters. Some coefficients can shrink to zero, effectively performing feature selection.
 L2 Regularization (Ridge): It shrinks the coefficients evenly but does not necessarily bring them to zero. It helps with multicollinearity and model stability.
-
-9.
