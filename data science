@@ -29,3 +29,8 @@ but L1 and L2 regularization methods are a great alternative when you’re deali
 8.Difference between L1 and L2 regularization
 L1 Regularization (Lasso): Encourages sparsity in the model parameters. Some coefficients can shrink to zero, effectively performing feature selection.
 L2 Regularization (Ridge): It shrinks the coefficients evenly but does not necessarily bring them to zero. It helps with multicollinearity and model stability.
+
+9.Use of GPU in tensorflow and how to limit the usage of GPU
+https://www.tensorflow.org/guide/gpu
+
+
